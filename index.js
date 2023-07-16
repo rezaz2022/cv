@@ -43,6 +43,13 @@ $(document).keypress(function(){
     }    
 });
 
+$(document).click(function(){
+    if(!gameStart) {
+        gameStart = true;
+        starGame();
+    }    
+});
+
 function starGame() {
  
     var buttonChoosen = generateNumber();
