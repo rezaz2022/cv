@@ -1,0 +1,45 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik Pixels', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'VT323', monospace;
+*/
+
+
+body {
+    background-color: #FFFEEC;
+    text-align: center;
+    color: #E4508F;
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    padding: 2% 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    background-color: wheat;
+    margin: 1%;
+    border-radius: 10%;
+    border: solid black 10px;
+}
+
+.top-left {
+    background-color: #36AE7C;
+}
+
+.top-right {
+    background-color: #EB5353;
+}
+
+.bottom-left {
+    background-color: #F9D923;
+}
+
+.bottom-right {
+    background-color: #187498;
+}
